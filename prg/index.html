@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<html>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="preview.js"></script>
+	<head>
+ 		<title>Стартовая страница</title>
+	</head>
+	<body onload="preview();">
+		<div id="switchEnter">
+			<body id='bodyEnter'>
+				<form action="script.php" method="POST">
+					<div class="auth">
+						<H1 id="auth">Авторизация</H1>  
+						<p><b>Логин:</b><br>
+							<input type="text" autocomplete='off' size="30" required class='input' name="login" id="login">
+						</p>
+						<p><b>Пароль:</b><br>
+							<input type="password" size="30" class='pass' name="pass" id="pass">
+						</p>
+						<input type="submit" value="Войти" class='submit'>
+					</div>
+				</form>
+			</body>
+		</div>
+	</body>
+</html>

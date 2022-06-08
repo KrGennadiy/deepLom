@@ -1,0 +1,76 @@
+<rule>
+    <id> positionApprover </id>
+    <name> Должность лица, утверждающего документ </name>
+</rule>
+<rule>
+    <id> rankApprover </id>
+    <name> Воинское звание лица, утверждающего документ </name>
+</rule>
+<rule>
+    <id> nameApprover </id>
+    <name> ФИО лица, утверждающего документ </name>
+</rule>
+<rule>
+    <id> signatureApprover </id>
+    <name> Место подписи лица, утверждающего документ </name>
+</rule>
+<rule>
+    <id> titlePlan </id>
+    <name> Наименование плана </name>
+</rule>
+<rule>
+    <id> titleDivision </id>
+    <name> Наименование подразделения </name>
+</rule>
+<rule>
+    <id> timeInterval </id>
+    <name> Временной промежуток </name>
+</rule>
+<rule>
+    <id> indexGroup </id>
+    <name> Индекс группы мероприятий </name>
+</rule>
+<rule>
+    <id> indexEvent </id>
+    <name> Индекс мероприятия внутри группы мероприятий </name>
+</rule>
+<rule>
+    <id> titleGroup </id>
+    <name> Наименование группы мероприятий </name>
+</rule>
+<rule>
+    <id> titleEvent </id>
+    <name> Наименование мероприятия </name>
+</rule>
+<rule>
+    <id> deadLineEvent </id>
+    <name> Срок выполнения мероприятия </name>
+</rule>
+<rule>
+    <id> coExecutors </id>
+    <name> Подразделения (должностные лица) - соисполнители </name>
+</rule>
+<rule>
+    <id> executor </id>
+    <name> Подразделение (должностное лицо) - исполнитель </name>
+</rule>
+<rule>
+    <id> commentEvent </id>
+    <name> Примечание </name>
+</rule>
+<rule>
+    <id> positionAgreeder </id>
+    <name> Должность лица, подающего план на утверждение </name>
+</rule>
+<rule>
+    <id> rankAgreeder </id>
+    <name> Воинское звание лица, подающего план на утверждение </name>
+</rule>
+<rule>
+    <id> nameAgreeder </id>
+    <name> ФИО лица, подающего план на утверждение </name>
+</rule>
+<rule>
+    <id> signatureAgreeder </id>
+    <name> Подпись лица, подающего план на утверждение </name>
+</rule>

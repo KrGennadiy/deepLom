@@ -1,0 +1,3309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:o="urn:schemas-microsoft-com:office:office"
+    xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+    xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+    xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+    xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+    xmlns:w10="urn:schemas-microsoft-com:office:word"
+    xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+    xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+    xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+    xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+    xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+    xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 wp14">
+    <w:body>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="5812" w:type="dxa"/>
+                <w:tblInd w:w="10183" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:left w:w="70" w:type="dxa"/>
+                    <w:right w:w="70" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="5812"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="001F34F2" w:rsidRPr="004E542C" w:rsidTr="00CA24CE">
+                <w:trPr>
+                    <w:trHeight w:val="3681"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="5812" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00416679" w:rsidRPr="00416679" w:rsidRDefault="00416679" w:rsidP="00416679">
+                        <w:pPr>
+                            <w:ind w:left="421"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00416679">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>УТВЕРЖДАЮ</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00416679" w:rsidRPr="00AA7156" w:rsidRDefault="00416679" w:rsidP="00416679">
+                        <w:pPr>
+                            <w:ind w:left="421"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                    <w:p w:rsidR="00416679" w:rsidRPr="00416679" w:rsidRDefault="00416679" w:rsidP="00416679">
+                        <w:pPr>
+                            <w:ind w:left="421"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00416679">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00416679" w:rsidRPr="00416679" w:rsidRDefault="009836B0" w:rsidP="00416679">
+                        <w:pPr>
+                            <w:ind w:left="421"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Структурного </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="004E7122" w:rsidRDefault="004E7122" w:rsidP="00416679">
+                        <w:pPr>
+                            <w:ind w:left="421"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">полковник       </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00DA1D38">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"></w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">    Иванов И.И.</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00416679" w:rsidRPr="00416679" w:rsidRDefault="00C20C42" w:rsidP="00416679">
+                        <w:pPr>
+                            <w:ind w:left="421"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>«     » ____________ 202__ г.</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="001F34F2" w:rsidRPr="00DA1D38" w:rsidRDefault="001F34F2" w:rsidP="0070650D">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p w:rsidR="00142B2F" w:rsidRPr="004E542C" w:rsidRDefault="00142B2F" w:rsidP="00E81E8D">
+            <w:pPr>
+                <w:ind w:left="709" w:firstLine="6"/>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r w:rsidRPr="004E542C">
+                <w:rPr>
+                    <w:b/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+                <w:t>План основн</w:t>
+            </w:r>
+            <w:bookmarkStart w:id="0" w:name="_GoBack"/>
+            <w:bookmarkEnd w:id="0"/>
+            <w:r w:rsidRPr="004E542C">
+                <w:rPr>
+                    <w:b/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+                <w:t>ых мероприятий</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="0070650D" w:rsidRPr="00CB7BFD" w:rsidRDefault="00A0715F" w:rsidP="00142B2F">
+            <w:pPr>
+                <w:ind w:left="708"/>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+                <w:t>Информационно-аналитического подразделения</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00142B2F" w:rsidRPr="00F661D7" w:rsidRDefault="00F661D7" w:rsidP="00142B2F">
+            <w:pPr>
+                <w:ind w:left="708"/>
+                <w:jc w:val="center"/>
+                <w:rPr>
+                    <w:b/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                    <w:lang w:val="en-US"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:b/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+                <w:t xml:space="preserve">на </w:t>
+            </w:r>
+            <w:r w:rsidR="00AC3178" w:rsidRPr="00AC3178">
+                <w:rPr>
+                    <w:b/>
+                    <w:i/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+                <w:t>следующий</w:t>
+            </w:r>
+            <w:r w:rsidRPr="00AC3178">
+                <w:rPr>
+                    <w:b/>
+                    <w:i/>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> год</w:t>
+            </w:r>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="15706" w:type="dxa"/>
+                <w:jc w:val="center"/>
+                <w:tblBorders>
+                    <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                </w:tblBorders>
+                <w:tblLayout w:type="fixed"/>
+                <w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="709"/>
+                <w:gridCol w:w="6508"/>
+                <w:gridCol w:w="2122"/>
+                <w:gridCol w:w="2122"/>
+                <w:gridCol w:w="2264"/>
+                <w:gridCol w:w="1981"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00142B2F" w:rsidRPr="004E542C" w:rsidTr="00E15782">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="709" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="001A6829" w:rsidRDefault="00142B2F" w:rsidP="00172628">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="001A6829">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>№</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="001A6829" w:rsidRDefault="00142B2F" w:rsidP="00172628">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="001A6829">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>пп</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6508" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="001A6829" w:rsidRDefault="00D91123" w:rsidP="00CD6AE5">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-46" w:right="-35" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Содержание </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00553844">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>запланированного мероприятия</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2122" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="001A6829" w:rsidRDefault="00E15782" w:rsidP="00172628">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-69" w:right="-52" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00E15782">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>Срок выполнения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2122" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="001A6829" w:rsidRDefault="00142B2F" w:rsidP="0081504B">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-57" w:right="-54" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="001A6829">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>Подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="001A6829" w:rsidRDefault="00142B2F" w:rsidP="0081504B">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-57" w:right="-54" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="001A6829">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>(должностные лица) – соисполнители</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2264" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00E15782" w:rsidRPr="00E15782" w:rsidRDefault="00E15782" w:rsidP="00E15782">
+                        <w:pPr>
+                            <w:spacing w:line="216" w:lineRule="auto"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00E15782">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Подразделение</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="001A6829" w:rsidRDefault="00E15782" w:rsidP="00E15782">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-36" w:right="-59" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00E15782">
+                            <w:rPr>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>(должностное лицо) – исполнитель</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1981" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00142B2F" w:rsidRPr="004E542C" w:rsidRDefault="00553844" w:rsidP="00553844">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Примечание</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p w:rsidR="00C41794" w:rsidRDefault="00C41794" w:rsidP="00C41794">
+            <w:pPr>
+                <w:spacing w:line="14" w:lineRule="exact"/>
+            </w:pPr>
+        </w:p>
+        <w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="15706" w:type="dxa"/>
+                <w:jc w:val="center"/>
+                <w:tblBorders>
+                    <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                </w:tblBorders>
+                <w:tblLayout w:type="fixed"/>
+                <w:tblLook w:val="01E0" w:firstRow="1" w:lastRow="1" w:firstColumn="1" w:lastColumn="1" w:noHBand="0" w:noVBand="0"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="713"/>
+                <w:gridCol w:w="6504"/>
+                <w:gridCol w:w="2121"/>
+                <w:gridCol w:w="2121"/>
+                <w:gridCol w:w="2286"/>
+                <w:gridCol w:w="1961"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00497E87" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:tblHeader/>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRDefault="00497E87">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>1</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRPr="008D481A" w:rsidRDefault="00497E87" w:rsidP="00172628">
+                        <w:pPr>
+                            <w:ind w:left="-46" w:right="-35"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>2</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRPr="0067572F" w:rsidRDefault="00497E87" w:rsidP="00172628">
+                        <w:pPr>
+                            <w:ind w:left="-69" w:right="-52"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>3</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRPr="0067572F" w:rsidRDefault="00497E87" w:rsidP="0081504B">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>4</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRPr="0067572F" w:rsidRDefault="00497E87" w:rsidP="00172628">
+                        <w:pPr>
+                            <w:ind w:left="-36" w:right="-59"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>5</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRPr="0067572F" w:rsidRDefault="00497E87" w:rsidP="00172628">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>6</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00497E87" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:trHeight w:val="397"/>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRDefault="00497E87">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="13032" w:type="dxa"/>
+                        <w:gridSpan w:val="4"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRPr="00D81AB0" w:rsidRDefault="00012A75" w:rsidP="00990829">
+                        <w:pPr>
+                            <w:pStyle w:val="a3"/>
+                            <w:ind w:left="303" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>1. Основные мероприятия оперативно-служебной деятельности</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00497E87" w:rsidRPr="008D481A" w:rsidRDefault="00497E87" w:rsidP="00D001C2">
+                        <w:pPr>
+                            <w:ind w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRDefault="00EA572F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"></w:t>
+                        </w:r>
+                        <w:r w:rsidR="00A0715F">
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>1.1 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="008D481A" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Разработать план технического обслуживания средств</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> связи 2024</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> год.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:ind w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>май</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="003A1F18" w:rsidP="003C6667">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-57" w:right="-54" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>Начальники 1, 2, 3 отделений</w:t>
+                        </w:r>
+                        <w:r w:rsidR="009836B0">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> структурного</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="00A0715F" w:rsidP="00285F96">
+                        <w:pPr>
+                            <w:ind w:left="-36" w:right="-59"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник 1 отделения </w:t>
+                        </w:r>
+                        <w:r w:rsidR="009836B0">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">структурного </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00285F96">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>1.2 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="008D481A" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Выполнить работы по реконструкции резервного узла</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> №4.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:ind w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>июнь</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="00A349E1" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-57" w:right="-54" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>Начальники 1 и 3 отделений</w:t>
+                        </w:r>
+                        <w:r w:rsidR="009836B0">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> структурного</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="00A0715F" w:rsidP="00285F96">
+                        <w:pPr>
+                            <w:ind w:left="-36" w:right="-59"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник </w:t>
+                        </w:r>
+                        <w:r w:rsidR="009836B0">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">структурного </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00285F96">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:lastRenderedPageBreak/>
+                            <w:t>1.3</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Обеспечение функционирования информационных систем</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-69" w:right="-52" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>июнь</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальники </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">2 и 3 отделений </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>ИАП</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00285F96">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник 2 отделения </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00285F96">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00A0715F" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>1.4</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:widowControl w:val="0"/>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Формирование отчета по объему трафика за предыдущий месяц.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:widowControl w:val="0"/>
+                            <w:ind w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>ежеквартально</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:widowControl w:val="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Заместитель начальника</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00BB4710" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:widowControl w:val="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> 2 отделения подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00BB4710" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-52" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Начальник 2 отделения подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00A0715F" w:rsidRPr="00A0715F" w:rsidRDefault="00A0715F" w:rsidP="00A0715F">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRDefault="00AB5775" w:rsidP="00DD57BC">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="13032" w:type="dxa"/>
+                        <w:gridSpan w:val="4"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00FA1647" w:rsidRPr="00FA1647" w:rsidRDefault="00FA1647" w:rsidP="00FA1647">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:spacing w:val="-2"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>2. Взаимодействие с подразделениями органов государственно власти Российской Федерации, органами местного самоуправления, организациями</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="008D481A" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:color w:val="7030A0"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>2.6 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="008D481A" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Разработать план технического обслуживания средств</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> связи 2024</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> год.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-69" w:right="-52"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>ежеквартально</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Заместители</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:i/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">начальника   </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-36" w:right="-59" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="7030A0"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>2.7 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="008D481A" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Выполнить работы по реконструкции резервного узла</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> №4.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>II квартал</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Заместитель</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">начальника </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> по ИАР - начальник </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:i/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">2 отделения </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-36" w:right="-59" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>2.9 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="008D481A" w:rsidRDefault="00BB4710" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:ind w:firstLine="279"/>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Разработать план технического обслуживания средств</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> связи 2024</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> год.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:left="-69" w:right="-52"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>ежеквартально</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальники </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00E108B6" w:rsidRDefault="00AB5775" w:rsidP="00E108B6">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">1, 2, 3 отделений, </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00E108B6">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">5 группы </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00BB4710">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-36" w:right="-59" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Заместитель начальника </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00BB4710">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> - главный инженер </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00BB4710">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="13032" w:type="dxa"/>
+                        <w:gridSpan w:val="4"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="008D481A" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">3. </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:spacing w:val="6"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Информационно-аналитическое обеспечение</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="008D481A" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>3.1 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="008D481A" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Разработать план технического обслуживания средств</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> связи 2024</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> год.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-69" w:right="-52" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>ежеквартально</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Заместитель</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>начальника</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:i/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:lastRenderedPageBreak/>
+                            <w:t xml:space="preserve">2 отделения </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:lastRenderedPageBreak/>
+                            <w:t>Заместитель</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:lastRenderedPageBreak/>
+                            <w:t xml:space="preserve">начальника </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> по ИАР -начальник</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:i/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">2 отделения </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>3.2 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="008D481A" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Выполнить работы по реконструкции резервного узла</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> №4.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-69" w:right="-52" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>ежеквартально</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Заместитель</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">начальника </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Подразделения</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> по ИАР -начальник</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">2 отделения </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00F742A3">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>п</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>одразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>3.4 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="00A0715F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00A0715F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Обеспечение функционирования информационных систем</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:pStyle w:val="af1"/>
+                            <w:ind w:left="-69" w:right="-52"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>ежеквартально</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-69" w:right="-52" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Заместитель</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>начальника</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:i/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">2 отделения </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Заместитель</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-54"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:i/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">начальника </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> по ИАР -начальник 2 отделения </w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00BB4710" w:rsidRPr="0067572F" w:rsidRDefault="00BB4710" w:rsidP="00BB4710">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t></w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="13032" w:type="dxa"/>
+                        <w:gridSpan w:val="4"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="008D481A" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:left="-57" w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">5. </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Организационные мероприятия</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="008D481A" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:right="-76"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:b/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+            <w:tr w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidTr="008219F3">
+                <w:trPr>
+                    <w:jc w:val="center"/>
+                </w:trPr>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="713" w:type="dxa"/>
+                        <w:vAlign w:val="center"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>5.1 </w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="6504" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="008D481A" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="center" w:pos="4677"/>
+                                <w:tab w:val="right" w:pos="9355"/>
+                            </w:tabs>
+                            <w:ind w:firstLine="279"/>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>Подготовить и издать приказ по организац</w:t>
+                        </w:r>
+                        <w:r w:rsidR="00BB4710">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t>ии служебной деятельности подразделения на 2023</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="008D481A">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> год.</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-69" w:right="-52" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>декабрь</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2121" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00F742A3">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-57" w:right="-76" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Arial Unicode MS"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>Заместители начальника</w:t>
+                        </w:r>
+                        <w:r w:rsidR="00F742A3">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Arial Unicode MS"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> подразделения,</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Arial Unicode MS"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> старший юрисконсульт </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00BB4710">
+                            <w:rPr>
+                                <w:rFonts w:eastAsia="Arial Unicode MS"/>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="2286" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:pStyle w:val="a4"/>
+                            <w:ind w:left="-36" w:right="-59" w:firstLine="0"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="0067572F">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Начальник </w:t>
+                        </w:r>
+                        <w:r w:rsidR="00BB4710">
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                                <w:lang w:val="ru-RU" w:eastAsia="ru-RU"/>
+                            </w:rPr>
+                            <w:t>подразделения</w:t>
+                        </w:r>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="1961" w:type="dxa"/>
+                    </w:tcPr>
+                    <w:p w:rsidR="00AB5775" w:rsidRPr="0067572F" w:rsidRDefault="00AB5775" w:rsidP="00AB5775">
+                        <w:pPr>
+                            <w:ind w:left="-73" w:right="-30"/>
+                            <w:jc w:val="center"/>
+                            <w:rPr>
+                                <w:sz w:val="28"/>
+                                <w:szCs w:val="28"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>
+        <w:p w:rsidR="00EB7D05" w:rsidRDefault="00C75CAF" w:rsidP="00027A3A">
+            <w:pPr>
+                <w:pStyle w:val="a4"/>
+                <w:ind w:left="360" w:firstLine="0"/>
+                <w:jc w:val="left"/>
+                <w:rPr>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                    <w:lang w:val="ru-RU"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                    <w:lang w:val="ru-RU"/>
+                </w:rPr>
+                <w:t>ПОДПИСИ</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00C9707E" w:rsidRDefault="00154158" w:rsidP="00027A3A">
+            <w:pPr>
+                <w:pStyle w:val="a4"/>
+                <w:ind w:left="360" w:firstLine="0"/>
+                <w:jc w:val="left"/>
+                <w:rPr>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                    <w:lang w:val="ru-RU"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                    <w:lang w:val="ru-RU"/>
+                </w:rPr>
+                <w:t>Кто-то</w:t>
+            </w:r>
+        </w:p>
+        <w:p w:rsidR="00154158" w:rsidRPr="00E108B6" w:rsidRDefault="00154158" w:rsidP="00027A3A">
+            <w:pPr>
+                <w:pStyle w:val="a4"/>
+                <w:ind w:left="360" w:firstLine="0"/>
+                <w:jc w:val="left"/>
+                <w:rPr>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                    <w:lang w:val="en-US"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:sz w:val="28"/>
+                    <w:szCs w:val="28"/>
+                    <w:lang w:val="ru-RU"/>
+                </w:rPr>
+                <w:t>дата</w:t>
+            </w:r>
+        </w:p>
+        <w:sectPr w:rsidR="00154158" w:rsidRPr="00E108B6" w:rsidSect="00361944">
+            <w:headerReference w:type="default" r:id="rId8"/>
+            <w:footerReference w:type="even" r:id="rId9"/>
+            <w:footerReference w:type="default" r:id="rId10"/>
+            <w:pgSz w:w="16838" w:h="11906" w:orient="landscape" w:code="9"/>
+            <w:pgMar w:top="1701" w:right="567" w:bottom="567" w:left="567" w:header="1021" w:footer="57" w:gutter="0"/>
+            <w:cols w:space="708"/>
+            <w:titlePg/>
+            <w:docGrid w:linePitch="360"/>
+        </w:sectPr>
+    </w:body>
+</w:document>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
+<ds:datastoreItem ds:itemID="{5D0690BC-9594-46FD-84A4-E64C24BBBDA7}"
+    xmlns:ds="http://schemas.openxmlformats.org/officeDocument/2006/customXml">
+    <ds:schemaRefs>
+        <ds:schemaRef ds:uri="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"/>
+    </ds:schemaRefs>
+</ds:datastoreItem>
+=======
+<ds:datastoreItem ds:itemID="{86714705-8BBD-4161-99FC-8FCA561FACBE}"
+    xmlns:ds="http://schemas.openxmlformats.org/officeDocument/2006/customXml">
+    <ds:schemaRefs>
+        <ds:schemaRef ds:uri="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"/>
+    </ds:schemaRefs>
+</ds:datastoreItem>
+>>>>>>> af958bc31e6980deb2020513e88c23110fb8689d

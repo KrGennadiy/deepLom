@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:title>Порядок рассмотрения:</dc:title>
+    <dc:subject></dc:subject>
+    <dc:creator>SM</dc:creator>
+    <cp:keywords></cp:keywords>
+    <cp:lastModifiedBy>Admin</cp:lastModifiedBy>
+    <cp:revision>42</cp:revision>
+    <cp:lastPrinted>2018-12-07T06:21:00Z</cp:lastPrinted>
+    <dcterms:created xsi:type="dcterms:W3CDTF">2022-02-07T09:00:00Z</dcterms:created>
+    <dcterms:modified xsi:type="dcterms:W3CDTF">2022-05-21T07:12:00Z</dcterms:modified>
+</cp:coreProperties>
+=======
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dc:creator>User</dc:creator>
+    <cp:lastModifiedBy>Admin</cp:lastModifiedBy>
+    <cp:revision>8</cp:revision>
+    <dcterms:created xsi:type="dcterms:W3CDTF">2019-12-25T07:52:00Z</dcterms:created>
+    <dcterms:modified xsi:type="dcterms:W3CDTF">2021-12-24T05:49:00Z</dcterms:modified>
+</cp:coreProperties>
+>>>>>>> af958bc31e6980deb2020513e88c23110fb8689d
