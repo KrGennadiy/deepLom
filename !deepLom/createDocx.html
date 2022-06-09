@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Тег INPUT</title>
+</head>
+
+<body>
+    <form name="test" method="post" action="createDocx.php">
+        <p><b>Гриф документа</b><br> <!-- оформить выпадающим списком-->
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <p>Номер экземпляра<br> <!-- ввод с правилами валидации-->
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <p> - - - </p>
+        <p>Утверждающее лицо</p>
+        <p>Должность<br> <!-- -->
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <p>Звание<br>
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <!-- Пропущена подпись утверждающего лица-->
+        <p> Фамилия, Имя, Отчество <br>
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <p> - - - </p>
+        <p> Наименование плана <br> <!-- выпадающий список -->
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <p> Подразделение <br> <!-- выпадающий список -->
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <p> Временной промежуток <br> <!-- выпадающий список -->
+            <input type="text" size="40" name='nameDocx'>
+        </p>
+        <p><input type="submit" value="Создать">
+            <input type="reset" value="Очистить">
+        </p>
+        <table border="2px" width="1060px">
+            <tr>
+                <td> № пп </td>
+                <td> Содержание запланированного мероприятия </td>
+                <td> Срок выполнения </td>
+                <td> Подразделения (должностные лица) – соисполнители </td> 
+                <td> Подразделение (должностное лицо) – исполнитель </td> 
+                <td> Примечание </td> 
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> 2 </td>
+                <td> 3 </td>
+                <td> 4 </td>
+                <td> 5 </td>
+                <td> 6 </td>
+            </tr>
+        </table>
+        <table border="2px" width="1060px">  
+            <tr>
+                <td> 1 </td>
+                <td> 
+                    <input type="text" size="60" name="TEMP" placeholder="Наименование группы мероприятий">  
+                </td>
+            </tr>
+        </table>
+        <!--<php? $counterGroups=1; $counterWithinGroup=1 ?> -->
+        <table border="2px" width="1060px">  
+            <tr>
+                <td> </td>
+                <td> <input type="text" placeholder="Содержание" > </td>
+                <td> <input type="text" placeholder="Срок выполнения"> </td>
+                <td> <input type="text" placeholder="Соисполнитель"> </td> 
+                <td> <input type="text" placeholder="Исполнитель"> </td> 
+                <td> <input type="text" placeholder="Примечание"> </td> 
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

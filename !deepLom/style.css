@@ -1,0 +1,314 @@
+@font-face {
+    font-family: TTNP;
+    src: url(fonts/TTNormsPro-Medium.ttf);
+}
+
+* {
+    font-family: TTNP;
+}
+
+.submit {
+    border-radius: 5px 5px 5px 5px;
+    color: #000000;
+    background-color: #61292554;
+    border-color: #0e070748;
+    border-style: groove;
+    border-width: 0px;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.button {
+    width: 214px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #61292554;
+    border-color: #0e070748;
+    border-style: groove;
+    border-width: 0px;
+    margin: 3px;
+    font-size: 15px;
+}
+
+#buttonRetable {
+    width: 270px;
+}
+
+#buttonUpdate {
+    width: 140px;
+}
+
+.buttonTable {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    color: #d20000;
+    border-top: 1px solid #e8edff;
+    color: #910b04;
+    background-color: #0e07071e;
+    border-color: #0e070748;
+    border-style: groove;
+    border-width: 0px;
+    margin: 3px;
+}
+
+#longButton {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    color: #d20000;
+    border-top: 1px solid #e8edff;
+    color: #910b04;
+    background-color: #0e07071e;
+    border-color: #0e070748;
+    border-style: groove;
+    border-width: 0px;
+    margin: 3px;
+}
+
+.buttonDate {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    border-top: 1px solid #e8edff;
+    background-color: #61292554;
+    border-color: #0e070748;
+    border-style: groove;
+    border-width: 0px;
+    margin: 3px;
+}
+
+.buttonTableWide {
+    width: 166px;
+    height: 42px;
+    border-radius: 5px 5px 5px 5px;
+    color: #d20000;
+    border-top: 1px solid #e8edff;
+    color: #910b04;
+    background-color: #0e07071e;
+    border-color: #0e070748;
+    border-style: groove;
+    border-width: 0px;
+    margin: 3px;
+}
+
+#exit {
+    margin: 0px 10px 35px 0px;
+}
+
+#bodyUser {
+    width: 1400px; /* 1155 */
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url(img/back.jpg);
+}
+
+#bodyNewUser {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url(img/back.jpg);
+}
+
+#bodyChangeUser {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url(img/back.jpg);
+}
+
+#bodyAudit {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url(img/back.jpg);
+
+}
+
+#bodyAdmin {
+    width: 1200px; 
+    margin: 0 auto;
+    margin-top: 5px;
+    background-image: url(img/back.jpg);
+}
+
+#leftSide {
+    position: relative;
+    float: left;
+}
+
+#rightSide {
+    position: relative;
+    float: right;
+}
+
+#topSide {
+    position: relative;
+    float: top;
+    padding: 12px;
+}
+
+#bodyEnter {
+    width: 280px;
+    margin: auto;
+    margin-top: 15%;
+    background-image: url(img/back.jpg);
+}
+
+#picture {
+    background-image: url(img/preview.png);
+    height: 265px;
+    width: 280px;
+    border-radius: 15px 15px 15px 15px;
+
+
+}
+
+#table {
+    width: 1090px; /* 1055 */
+    height: 800px;
+    overflow-y: scroll;
+}
+
+.withinTable {
+    width: 855px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#tableUsers {
+    width: 750px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#tableAdmin {
+    width: 880px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+#tableAudit {
+    width: 660px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.submit {
+    border-radius: 5px 5px 5px 5px;
+    width: 85px;
+    height: 30px;
+    font-size: 18px;
+}
+
+th {
+    font-weight: normal;
+    color: #161211;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+td {
+    color: #910b04;
+    border-top: 3px solid #0e07077c;
+    padding: 10px 15px;
+}
+
+.withinTd {
+    color: #910b04;
+    border-top: 3px solid #0e07077c;
+    /*padding: 10px 15px;*/
+}
+
+tr:hover td {
+    background: #881c1c2c;
+}
+
+b {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#log {
+    font-size: 40px;
+}
+
+#error {
+    font-size: 24px;
+    margin-top: 320px;
+}
+
+#back {
+    position: relative;
+    left: 90px;
+}
+
+#divBack {
+    width: 450px;
+    margin: auto;
+    top: 30%;
+}
+
+.input {
+    background-color: rgba(97, 41, 37, 0.349);
+    border-radius: 7px;
+    border-color: #420c0ccc;
+    height: 25px;
+    list-style: none;
+    font-size: 20px;
+    width: 250px;
+    margin: 7px;
+}
+
+.textSumm {
+    font-size: 18px;
+    color: #910b04;
+
+
+}
+
+.pass {
+    border-radius: 7px;
+    background-color: #61292555;
+    border-color: #420c0ccc;
+    height: 25px;
+    list-style: none;
+    font-size: 20px;
+    max-width: 250px;
+    margin: 7px;
+}
+
+.label {
+    margin: 10px;
+}
+
+.select {
+    margin: 7px;
+    background-color: #61292554;
+    border-color: #420c0ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 25px;
+    width: 256px;
+}
+
+.selectForPlan {
+    margin: 7px;
+    background-color: #61292554;
+    border-color: #420c0ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 25px;
+    width: 400px;
+}
+
+.selectDate {
+    margin: 7px;
+    background-color: #61292554;
+    border-color: #420c0ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 25px;
+    width: 163px;
+}
