@@ -39,7 +39,7 @@ if ($_SESSION['auth'] == 1) { ?>
                     <input type="button" class="button" onclick="newEvent();" value="Добавить мероприятие"><br>
                     <input type="button" class="button" onclick="newPlan(); newEvent();" value="Создать планир. документ"><br>
                     <input type="button" class="button" onclick="uploadPlan();" value="Просмотреть docx"><br>
-                    <input type="button" class="button" onclick="uploadPattern();" value="Загрузить шаблон"><br>
+                    <input type="button" class="button" onclick="newTypePlan();" value="Добавить вид плана"><br>
                 </form>
             </div>
         </div>

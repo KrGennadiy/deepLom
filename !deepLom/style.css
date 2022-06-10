@@ -285,7 +285,7 @@ b {
 
 .select {
     margin: 7px;
-    background-color: #61292554;
+    background-color: #64321518;
     border-color: #420c0ccc;
     border-radius: 5px;
     font-size: 18px;
@@ -295,12 +295,17 @@ b {
 
 .selectForPlan {
     margin: 7px;
-    background-color: #61292554;
+    background-color: #64321518;
     border-color: #420c0ccc;
     border-radius: 5px;
     font-size: 18px;
     height: 25px;
     width: 400px;
+    color: #910b04;
+}
+
+option {
+    color: rgb(250, 209, 175)
 }
 
 .selectDate {

@@ -29,12 +29,12 @@ while ($eventDataExtract = $servicemanData->fetch_assoc()) {
 }
 
 $planData = $mysqli->query(
-    "SELECT plan.numberPlan, plan.idPlan, plan.titlePlan, division.titleDivision, 
+    "SELECT plan.numberPlan, plan.idPlan, typeplan.titleTypePlan, division.titleDivision, 
     timeinterval.titleTimeInterval, timeinterval.beginTimeInterval, 
     timeinterval.endTimeInterval, typePlan.titleTypePlan from plan, division, timeinterval, typePlan 
     where plan.idDivisionPlan=division.idDivision 
     and plan.idTimeInterval  = timeinterval.idTimeInterval
-    and plan.titlePlan = typePlan.idTypePlan"
+    and plan.idTypePlan = typePlan.idTypePlan"
 );
 
 while ($eventDataExtract = $planData->fetch_assoc()) {
@@ -46,7 +46,7 @@ while ($eventDataExtract = $planData->fetch_assoc()) {
             <titleTimeInterval>" . $eventDataExtract['titleTimeInterval'] . "</titleTimeInterval>
             <beginTimeInterval>" . $eventDataExtract['beginTimeInterval'] . "</beginTimeInterval>
             <endTimeInterval>" . $eventDataExtract['endTimeInterval'] . "</endTimeInterval>
-            <numberPlan>" . $eventDataExtract['numberPlan'] . "</numberPlan>
+            <numberPlan>" . $eventDataExtract['numberPlan'] ."</numberPlan>
         </plan>    
     ");
 }
@@ -112,6 +112,20 @@ while ($groupEventDataExtract = $groupEventData->fetch_assoc()) {
             <idGroupEvent>" . $groupEventDataExtract['idGroupEvent'] . "</idGroupEvent>
             <titleGroupEvent>" . $groupEventDataExtract['titleGroupEvent'] . "</titleGroupEvent>
         </groupEvent>    
+    ");
+}
+
+$typePlanData = $mysqli->query(
+    "SELECT * FROM typeplan"
+);
+
+while ($typePlanDataExtract = $typePlanData->fetch_assoc()) {
+    echo (" 
+        <typePlan>
+            <idTypePlan>" . $typePlanDataExtract['idTypePlan'] . "</idTypePlan>
+            <titleTypePlan>" . $typePlanDataExtract['titleTypePlan'] . "</titleTypePlan>
+            <nameFilePattern>" . $typePlanDataExtract['nameFilePattern'] . "</nameFilePattern>
+        </typePlan>    
     ");
 }
 echo '</all>';

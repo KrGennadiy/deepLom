@@ -1,10 +1,11 @@
 <?php
 include 'head.php';
 $planMainTableData = $mysqli->query(
-    "SELECT plan.idPlan, plan.titlePlan, timeinterval.titleTimeInterval, division.titleDivision
-    FROM plan, timeinterval, division
+    "SELECT plan.idPlan, typeplan.titleTypePlan, timeinterval.titleTimeInterval, division.titleDivision
+    FROM plan, timeinterval, division, typeplan
     where plan.idTimeInterval=timeinterval.idTimeInterval
-    and plan.idDivisionPlan=division.idDivision"
+    and plan.idDivisionPlan=division.idDivision
+    and plan.idTypePlan=typeplan.idTypePlan"
 );
 
 
@@ -14,7 +15,7 @@ while ($planMainTableDataExtract = $planMainTableData->fetch_assoc()) :
     echo (" 
         <planMainTableData>
             <idPlan>" . $planMainTableDataExtract['idPlan'] . "</idPlan>
-            <titlePlan>" . $planMainTableDataExtract['titlePlan'] . "</titlePlan>
+            <titlePlan>" . $planMainTableDataExtract['titleTypePlan'] . "</titlePlan>
             <titleTimeInterval>" . $planMainTableDataExtract['titleTimeInterval'] . "</titleTimeInterval>
             <titleDivision>" . $planMainTableDataExtract['titleDivision'] . "</titleDivision>
         </planMainTableData>    

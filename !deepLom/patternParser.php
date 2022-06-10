@@ -229,5 +229,11 @@ if ($zip->open('upload_samples/' . $nameArhive, ZipArchive::CREATE) === TRUE) { 
 } else {
     die('Произошла ошибка при создании архива');
 }
+
+$titleTypePlan = $_POST['titleTypePlan'];
+echo ('<?xml version="1.0" encoding="utf-8"?>');
+if ($titleTypePlan != '' && $fileName != '') {
+    $mysqli->query("INSERT INTO typeplan (titleTypePlan, nameFilePattern) VALUES ('$titleTypePlan', '$fileName')");
+}
 echo "<script>self.location='afterUploadPattern.php';</script>";
-//header("Location: mainPage.php");
+

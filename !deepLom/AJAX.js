@@ -187,10 +187,30 @@ function newPlan() {
 			case 4: {
 				if (request.status == 200) {
 					var xmlDoc = request.responseXML;
+					var messagesPattern = xmlDoc.getElementsByTagName("typePlan");
 					var messages = xmlDoc.getElementsByTagName("serviceman");
 					var table =
 						"<table class='table' id='bookTable'><tr><th>Придумаю потом</th><th>Выбрать/Вставить</th><th></th></tr>";
 					table += '<tbody>'
+					table += '<tr><td> Шаблон документа </td>';
+					table += '<td>';
+					table += '<select name="pattern" class="selectForPlan">';
+					table += "<option disabled>Выберите шаблон</option>";
+					for (i = 0; i < messagesPattern.length; i++) {
+						table +=
+							"<option value=" +
+							messagesPattern[i].getElementsByTagName("idTypePlan")[0].childNodes[0]
+								.nodeValue +
+							">" +
+							messagesPattern[i].getElementsByTagName("titleTypePlan")[0].childNodes[0]
+								.nodeValue + ' ' +
+							messagesPattern[i].getElementsByTagName("nameFilePattern")[0].childNodes[0]
+								.nodeValue;
+						"</option>";
+					}
+					table += "</select></td></tr>";
+
+
 					table += '<tr><td> Утверждающее лицо </td>';
 					table += '<td>';
 					table += '<select name="approver" class="selectForPlan">';
@@ -239,11 +259,8 @@ function newPlan() {
 					}
 					table += "</select></td></tr>";
 
+					/*
 					messagesPlan = xmlDoc.getElementsByTagName("plan");
-					messagesDivision = xmlDoc.getElementsByTagName("division");
-					messagesTimeInterval = xmlDoc.getElementsByTagName("timeInterval");
-					messagesEvent = xmlDoc.getElementsByTagName("event");
-					messagesGroupEvent = xmlDoc.getElementsByTagName("groupEvent");
 					table += '<tr><td> Наименование плана </td>';
 					table += '<td>';
 					table += '<select name="plan" class="selectForPlan">';
@@ -260,8 +277,12 @@ function newPlan() {
 								.nodeValue +
 							"</option>";
 					}
-					table += "</select></td></tr>";
+					table += "</select></td></tr>";*/
 
+					messagesDivision = xmlDoc.getElementsByTagName("division");
+					messagesTimeInterval = xmlDoc.getElementsByTagName("timeInterval");
+					messagesEvent = xmlDoc.getElementsByTagName("event");
+					messagesGroupEvent = xmlDoc.getElementsByTagName("groupEvent");
 					table += '<tr><td> Наименование подразделения </td>';
 					table += '<td>';
 					table += '<select name="division" class="selectForPlan">';
@@ -347,6 +368,32 @@ function newPlan() {
 						"</option>";
 					}
 					eventTable += '</select><br>';
+
+					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
+					eventTable += ' Соисполнитель <br> ';
+					eventTable += '<select name="coExecutor" class="selectForPlan">';
+					eventTable += "<option disabled>Выберите соисполнителя</option>";
+					for (i = 0; i < messagesServiceman.length; i++) {
+						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
+							.nodeValue;
+						MN = messagesServiceman[i].getElementsByTagName("middleNameServiceman")[0].childNodes[0]
+							.nodeValue;
+
+						eventTable +=
+							"<option value=" +
+							messagesServiceman[i].getElementsByTagName("idServiceman")[0].childNodes[0]
+								.nodeValue +
+							">" +
+							messagesServiceman[i].getElementsByTagName("secondNameServiceman")[0].childNodes[0]
+								.nodeValue + ' ' + FN[0] + '. ' + MN[0] + '.';
+						"</option>";
+					}
+					eventTable += '</select><br>';
+
+					eventTable += ' Срок выполнения <br> ';
+					eventTable += '<input type="date" name="deadLineEvent" class="selectForPlan">';
+					eventTable += '<br>';
+
 					table += eventTable;
 					table += '</td></tr></tbody></table>';
 					forButton = 'tableEvent';
@@ -355,17 +402,12 @@ function newPlan() {
 					table += '<br><input type="button" onclick="addGroupEvent(); newGroupEventTable();" id="longButton" value="Добавить группу мероприятий"';
 					table += "</td>";
 
-
-
-
-
-
-
-
 					table += '</tbody>';
 					table += "</table>";
 					table += '<div id="rowId"></div>';
 					document.getElementById("table").innerHTML = table;
+					button = '<input type=button value="Создать" class="button" onclick="sendDataPlan();">';
+					document.getElementById("switchTable").innerHTML = button;
 
 				} else if (request.status == 404) {
 					alert("Ошибка: запрашиваемый скрипт не найден!");
@@ -462,6 +504,32 @@ function newEventTable() {
 						"</option>";
 					}
 					eventTable += '</select><br>';
+
+					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
+					eventTable += ' Соисполнитель <br> ';
+					eventTable += '<select name="coExecutor" class="selectForPlan">';
+					eventTable += "<option disabled>Выберите соисполнителя</option>";
+					for (i = 0; i < messagesServiceman.length; i++) {
+						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
+							.nodeValue;
+						MN = messagesServiceman[i].getElementsByTagName("middleNameServiceman")[0].childNodes[0]
+							.nodeValue;
+
+						eventTable +=
+							"<option value=" +
+							messagesServiceman[i].getElementsByTagName("idServiceman")[0].childNodes[0]
+								.nodeValue +
+							">" +
+							messagesServiceman[i].getElementsByTagName("secondNameServiceman")[0].childNodes[0]
+								.nodeValue + ' ' + FN[0] + '. ' + MN[0] + '.';
+						"</option>";
+					}
+					eventTable += '</select><br>';
+
+					eventTable += ' Срок выполнения <br> ';
+					eventTable += '<input type="date" name="deadLineEvent" class="selectForPlan">';
+					eventTable += '<br>';
+
 					rand = Math.random();
 					document.getElementById("newEventPlace").id = rand;
 					document.getElementById(rand).innerHTML = eventTable;
@@ -536,6 +604,53 @@ function newGroupEventTable() {
 							"</option>";
 					}
 					eventTable += '</select><br>';
+
+					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
+					eventTable += ' Исполнитель <br> ';
+					eventTable += '<select name="executor" class="selectForPlan">';
+					eventTable += "<option disabled>Выберите исполнителя</option>";
+					for (i = 0; i < messagesServiceman.length; i++) {
+						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
+							.nodeValue;
+						MN = messagesServiceman[i].getElementsByTagName("middleNameServiceman")[0].childNodes[0]
+							.nodeValue;
+
+						eventTable +=
+							"<option value=" +
+							messagesServiceman[i].getElementsByTagName("idServiceman")[0].childNodes[0]
+								.nodeValue +
+							">" +
+							messagesServiceman[i].getElementsByTagName("secondNameServiceman")[0].childNodes[0]
+								.nodeValue + ' ' + FN[0] + '. ' + MN[0] + '.';
+						"</option>";
+					}
+					eventTable += '</select><br>';
+
+					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
+					eventTable += ' Соисполнитель <br> ';
+					eventTable += '<select name="coExecutor" class="selectForPlan">';
+					eventTable += "<option disabled>Выберите соисполнителя</option>";
+					for (i = 0; i < messagesServiceman.length; i++) {
+						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
+							.nodeValue;
+						MN = messagesServiceman[i].getElementsByTagName("middleNameServiceman")[0].childNodes[0]
+							.nodeValue;
+
+						eventTable +=
+							"<option value=" +
+							messagesServiceman[i].getElementsByTagName("idServiceman")[0].childNodes[0]
+								.nodeValue +
+							">" +
+							messagesServiceman[i].getElementsByTagName("secondNameServiceman")[0].childNodes[0]
+								.nodeValue + ' ' + FN[0] + '. ' + MN[0] + '.';
+						"</option>";
+					}
+					eventTable += '</select><br>';
+
+					eventTable += ' Срок выполнения <br> ';
+					eventTable += '<input type="date" name="deadLineEvent" class="selectForPlan">';
+					eventTable += '<br>';
+
 					eventTable += '</td></tr></tbody></table>';
 					forButton = 'tableEvent' + rand;
 					eventTable += '<input type="button" value="Добавить" class="buttonTable" onclick="addEventTable(\'' + forButton + '\'); newEventTable();">';
@@ -560,19 +675,17 @@ function newGroupEventTable() {
 
 function newEvent() {
 
-	var input = "";
+	var input = "<form id=eventForm>";
 	input += '<b class="lable">Добавить мероприятие</b><br>';
 	input +=
 		'<input type="text" id="inputTitleEvent" name="titleEvent" class="input" placeholder="Наименование"><br>';
 	input +=
 		'<input type="text" id="inputCommentEvent" name="commentEvent" class="input" placeholder="Комментарий"><br>';
 	input +=
-		'<input type="date" id="inputDeadLineEvent" name="deadLineEvent" class="input" placeholder="Срок выполнения"><br>';
-
-	input +=
 		'<input type="button" class="button" value="Добавить" onclick="checkEvent();"><br>';
 	input += '<input type=button value=Назад class="button" onclick="defaultButtons();">';
-	document.getElementById("temporary").innerHTML = input;
+	input += '</form>';
+			document.getElementById("temporary").innerHTML = input;
 
 }
 
@@ -587,10 +700,12 @@ function uploadPlan() {
 	document.getElementById("temporary").innerHTML = input;
 }
 
-function uploadPattern() {
+function newTypePlan() {
 
 	var input = "";
 	input += '<form name="test" id="dataPattern" method="post" action="patternParser.php" enctype=multipart/form-data>';
+	input += '<input type=text name=titleTypePlan placeholder="Вид плана" class="input" id="inputTypePlanTitle"><br>';
+	input += '<br><b class=lable>Шаблон документа</b><br>'
 	input += '<input type=file name=uploadfile accept=".docx" class="button" onchange="enabledUploadPattern();"><br>';
 	input += '<div id="uploadButton"><input type=submit disabled name="blockButton" value=Загрузить class="button"></div></form>';
 	input += '<input type=button value=Назад class="button" onclick="defaultButtons();">';
@@ -623,7 +738,22 @@ function defaultButtons() {
 	input +=
 		'<input type="button" class="button" onclick="uploadPlan();" value="Просмотреть docx"><br>';
 	input +=
-		'<input type="button" class="button" onclick="uploadPattern();" value="Загрузить шаблон"><br>';
+		'<input type="button" class="button" onclick="newTypePlan();" value="Добавить вид плана"><br>';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+}
+
+function buttonsNewPlan() {
+	var input = "<form id='formTemp'>";
+
+	input +=
+		'<input type="button" class="button" onclick="newTypePlan();" value="Добавить вид плана"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newServiceman();" value="Добавить сотрудника"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newEvent();" value="Добавить мероприятие"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newGroupEvent();" value="Добавить группу мероприятий"><br>';
 	input += '</form>';
 	document.getElementById("temporary").innerHTML = input;
 }
@@ -719,7 +849,7 @@ function checkEvent() {
 	} else {
 		return;
 	}
-	var myForm = document.getElementById("formTemp");
+	var myForm = document.getElementById("eventForm");
 	var elems = myForm.elements;
 	var params = "";
 
@@ -740,43 +870,25 @@ function checkEvent() {
 				if (request.status == 200) {
 					var xmlDoc = request.responseXML;
 					mess = xmlDoc.getElementsByTagName("meta");
-					document = mess[0].getElementsByTagName("document")[0].childNodes[0]
+					titleEvent = mess[0].getElementsByTagName("titleEvent")[0].childNodes[0]
 						.nodeValue;
-					firstName = mess[0].getElementsByTagName("firstName")[0].childNodes[0]
-						.nodeValue;
-					secondName = mess[0].getElementsByTagName("secondName")[0].childNodes[0]
-						.nodeValue;
-					middleName = mess[0].getElementsByTagName("middleName")[0].childNodes[0]
-						.nodeValue;
-					free = mess[0].getElementsByTagName("free")[0].childNodes[0]
+					commentEvent = mess[0].getElementsByTagName("commentEvent")[0].childNodes[0]
 						.nodeValue;
 					color1 = 0;
 					color2 = 138;
 					time = 3;
-					if (firstName == "good" && secondName == "good" && middleName == "good" && free == "good" && document == 'good') {
-						sendDataServiceman();
+					if (titleEvent == "good" && commentEvent == "good") {
+						sendDataEvent();
 						startAjax();
 						defaultButtons();
 						return;
 					}
-					if (free == "bad") {
-						input =
-							'<input type="text" id="inputDocument" name="firstName" class="input" placeholder="Документ занят"><br>';
-						document.getElementById(
-							"divInputDocument"
-						).innerHTML = input;
+					if (titleEvent == "bad") {
+						errorInputTitleEvent();
 					}
-					if (document == "bad") {
-						errorInputServicemanDocument();
-					}
-					if (firstName == "bad") {
-						errorInputServicemanFirstName();
-					}
-					if (secondName == "bad") {
-						errorInputServicemanSecondName();
-					}
-					if (middleName == "bad") {
-						errorInputServicemanMiddleName();
+
+					if (commentEvent == "bad") {
+						errorInputCommentEvent();
 					}
 
 				} else if (request.status == 404) {
@@ -786,7 +898,7 @@ function checkEvent() {
 			}
 		}
 	};
-	request.open("POST", "checkServiceman.php", true);
+	request.open("POST", "checkEvent.php", true);
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	request.send(params);
 }
@@ -807,8 +919,27 @@ function errorInputServicemanDocument() {
 		setTimeout("errorInputServicemanDocument()", 45);
 	}
 }
-function errorInputServicemanFirstName() {
-	inputFirstName.style.background =
+//человеческая функция, которая отчего-то не работает
+/*
+function error(tempId, color1Er, color2Er, timeEr) {
+	var useless = document.getElementById(tempId);
+	useless.style.background =
+		"rgba(" + color2Er + ", " + color1Er + ", 37, 0.349)";
+	color1Er += 1;
+	color2Er -= 1;
+	timeEr -= 1;
+	if (color1 > 41) {
+		return;
+	}
+	if (time > 0) {
+		setTimeout("error("+ tempId + ", " + color1Er + ", " + color2Er + ", " + timeEr + ")", 100);
+	} else {
+		setTimeout("error(" + tempId + ", " + color1Er + ", " + color2Er + ", " + timeEr + ")", 45);
+	}
+}
+*/
+function errorInputTitleEvent() {
+	inputTitleEvent.style.background =
 		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
 	color1 += 1;
 	color2 -= 1;
@@ -817,9 +948,24 @@ function errorInputServicemanFirstName() {
 		return;
 	}
 	if (time > 0) {
-		setTimeout("errorInputServicemanFirstName()", 100);
+		setTimeout("errorInputTitleEvent()", 100);
 	} else {
-		setTimeout("errorInputServicemanFirstName()", 45);
+		setTimeout("errorInputTitleEvent()", 45);
+	}
+}
+function errorInputCommentEvent() {
+	inputCommentEvent.style.background =
+		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
+	color1 += 1;
+	color2 -= 1;
+	time -= 1;
+	if (color1 > 41) {
+		return;
+	}
+	if (time > 0) {
+		setTimeout("errorInputCommentEvent()", 100);
+	} else {
+		setTimeout("errorInputCommentEvent()", 45);
 	}
 }
 function errorInputServicemanSecondName() {
@@ -873,8 +1019,8 @@ function sendDataServiceman() {
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	request.send(params);
 }
-//сыро
-function sendDataPattern() {
+
+function sendDataEvent() {
 	var request;
 	if (window.XMLHttpRequest) {
 		request = new XMLHttpRequest();
@@ -883,16 +1029,39 @@ function sendDataPattern() {
 	} else {
 		return;
 	}
-	var myForm = document.getElementById("formTemp");
+	var myForm = document.getElementById("eventForm");
 	var elems = myForm.elements;
 	var params = "";
 	for (var i = 0; i < elems.length; i++) {
 		if (params != "") params += "&";
 		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
 	}
-	request.open("POST", "newServiceman.php", false);
+	request.open("POST", "newEvent.php", true);
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	request.send(params);
 }
+
+function sendDataPlan() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("formTable");
+	var elems = myForm.elements;
+	var params = "";
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.open("POST", "newPlan.php", false);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
+
+
 
 
