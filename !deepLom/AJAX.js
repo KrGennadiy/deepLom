@@ -395,12 +395,12 @@ function newPlan() {
 					eventTable += '<br>';
 
 					table += eventTable;
-					table += '</td></tr></tbody></table>';
+					table += '</td><td type="hidden"><div id=countEvent>1</div></td></tr></tbody></table>';
 					forButton = 'tableEvent';
 					table += '<input type="button" value="Добавить" class="buttonTable" onclick="addEventTable(\'' + forButton + '\'); newEventTable();">';
-					table += '</td></tr></tbody></table>';
+					table += '</td><div id=countGroupEvent>1</div></tr></tbody></table>';
 					table += '<br><input type="button" onclick="addGroupEvent(); newGroupEventTable();" id="longButton" value="Добавить группу мероприятий"';
-					table += "</td>";
+					table += "</td></tr>";
 
 					table += '</tbody>';
 					table += "</table>";
@@ -1057,7 +1057,7 @@ function sendDataPlan() {
 		if (params != "") params += "&";
 		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
 	}
-	request.open("POST", "newPlan.php", false);
+	request.open("POST", "newPlan.php", true);
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	request.send(params);
 }

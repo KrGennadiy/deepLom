@@ -37,6 +37,10 @@ if ($timeInterval != '' && $idApprover != '' && $idAgreeder != '' && $timeInterv
 }
 
 ////////////////
+
+
+
+/*
 for ($i = 0; $i = sizeof($arrayEvent); $i++) {
     $titleEvent = $arrayEvent[$i]['event'];
     $deadLineEvent = $arrayEvent[$i]['deadLineEvent'];
@@ -69,7 +73,7 @@ for ($i = 0; $i = sizeof($arrayEvent); $i++) {
 
 
 }
-
+*/
 
 
 
