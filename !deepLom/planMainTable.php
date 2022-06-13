@@ -1,7 +1,7 @@
 <?php
 include 'head.php';
 $planMainTableData = $mysqli->query(
-    "SELECT plan.idPlan, typeplan.titleTypePlan, timeinterval.titleTimeInterval, division.titleDivision
+    "SELECT plan.idPlan, plan.idTypePlan, typeplan.titleTypePlan, typeplan.nameFilePattern, timeinterval.titleTimeInterval, division.titleDivision
     FROM plan, timeinterval, division, typeplan
     where plan.idTimeInterval=timeinterval.idTimeInterval
     and plan.idDivisionPlan=division.idDivision
@@ -18,6 +18,8 @@ while ($planMainTableDataExtract = $planMainTableData->fetch_assoc()) :
             <titlePlan>" . $planMainTableDataExtract['titleTypePlan'] . "</titlePlan>
             <titleTimeInterval>" . $planMainTableDataExtract['titleTimeInterval'] . "</titleTimeInterval>
             <titleDivision>" . $planMainTableDataExtract['titleDivision'] . "</titleDivision>
+            <idTypePlan>" . $planMainTableDataExtract['idTypePlan'] . "</idTypePlan>
+            <nameFilePattern>" . $planMainTableDataExtract['nameFilePattern'] . "</nameFilePattern>
         </planMainTableData>    
     ");
 endwhile;

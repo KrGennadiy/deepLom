@@ -31,6 +31,10 @@ function startAjax() {
 
 						outIdPlan = messages[i].getElementsByTagName("idPlan")[0]
 							.childNodes[0].nodeValue;
+							nameFilePattern = messages[i].getElementsByTagName("nameFilePattern")[0]
+							.childNodes[0].nodeValue;
+						outIdTypePlan = messages[i].getElementsByTagName("idTypePlan")[0]
+							.childNodes[0].nodeValue;
 						outTitlePlan = messages[i].getElementsByTagName("titlePlan")[0]
 							.childNodes[0].nodeValue;
 						outTitleTimeInterval = messages[i].getElementsByTagName(
@@ -45,7 +49,8 @@ function startAjax() {
 						table += "<td>" + outTitleTimeInterval + "</td>";
 						table +=
 							'<input type="hidden" name="idPlan" value="' + outIdPlan + '">';
-						table += '<td class="actionButtons"><input type="button" value="Просмотр" class="buttonTableWide">'// onclick = "parser(\'' + outDocument + '\', \'' + outName + '\', \'' + outRank + '\', \'' + outPosition + '\'); defaultListCP(\'' + outDocument + '\', \'' + outName + '\', \'' + outRank + '\', \'' + outPosition + '\');"
+							
+						table += '<td class="actionButtons"><a href="http://' + document.domain + ':8080/!deepLom/newDocx/'+ nameFilePattern + '" download="downloadFile.docx"><button type="button" class="buttonTable">Скачать</button></a>';
 						//table += '<input type="button" value="удалить" class="buttonTable" onclick="deleteServiceman(\'' + outDocument + '\'); startAjax();">'
 						//table += '<input type="button" value="изменить" class="buttonTable" onclick="changeServiceman(\'' + outDocument + '\', \'' + outName + '\', \'' + outRank + '\', \'' + outPosition + '\');">'
 						table += "</td></tr>";
@@ -53,6 +58,7 @@ function startAjax() {
 					table += "</table>";
 					table += '<div id="rowId"></div>';
 					document.getElementById("table").innerHTML = table;
+					document.getElementById('switchTable').innerHTML = '';
 					/*
 							  switchButton = '<input type="button" class="button" id="buttonRetable" onclick="startUserTable(); defaultListUser();" value="Показать таблицу пользователей">'
 							  switchButton += '<input type="button" class="button" id="buttonUpdate" onclick="startAjax();" value="Обновить">'
@@ -67,6 +73,102 @@ function startAjax() {
 		}
 	};
 	request.open("POST", "planMainTable.php", true);
+	request.send(null);
+}
+
+function newServicemanForPlan() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					var xmlDoc = request.responseXML;
+					var messages = xmlDoc.getElementsByTagName("rankData");
+					var messPosition = xmlDoc.getElementsByTagName("positionData");
+					var messDivision = xmlDoc.getElementsByTagName("divisionData");
+
+					var input = "<form id='formTemp'>";
+					input +=
+						'<div id="divInputDocument"> <input type="text" id="inputDocument" name="document" class="input" placeholder="Серия и номер д-та"></div><br>';
+					input +=
+						'<div id="divInputFirstName"><input type="text" id="inputFirstName" name="firstName" class="input" placeholder="Фамилия"></div><br>';
+					input +=
+						'<div id="divInputSecondName"><input type="text" id="inputSecondName" name="secondName" class="input" placeholder="Имя"></div><br>';
+					input +=
+						'<div id="divInputMiddleName"><input type="text" id="inputMiddleName" name="middleName" class="input" placeholder="Отчество"></div><br>';
+
+					input += '<b class="lable"> Звание </b> <br>';
+					input += '<select name="rankServiceman" class="select">';
+					input += "<option disabled>Выберите звание</option>";
+					for (i = 0; i < messages.length; i++) {
+						input +=
+							"<option value=" +
+							messages[i].getElementsByTagName("idRank")[0].childNodes[0]
+								.nodeValue +
+							">" +
+							messages[i].getElementsByTagName("titleMilitaryRank")[0].childNodes[0]
+								.nodeValue +
+							"</option>";
+					}
+					input += "</select><br>";
+
+					input += '<b class="lable"> Должность </b> <br>';
+					input += '<select name="positionServiceman" class="select">';
+					input += "<option disabled>Выберите должность</option>";
+					for (i = 0; i < messPosition.length; i++) {
+						input +=
+							"<option value=" +
+							messPosition[i].getElementsByTagName("idPosition")[0]
+								.childNodes[0].nodeValue +
+							">" +
+							messPosition[i].getElementsByTagName("titlePosition")[0]
+								.childNodes[0].nodeValue +
+							"</option>";
+					}
+					input += "</select><br>";
+
+					input += '<b class="lable"> Подразделение </b> <br>';
+					input += '<select name="divisionServiceman" class="select">';
+					input += "<option disabled>Выберите подразделение</option>";
+					for (i = 0; i < messDivision.length; i++) {
+						input +=
+							"<option value=" +
+							messDivision[i].getElementsByTagName("idDivision")[0]
+								.childNodes[0].nodeValue +
+							">" +
+							messDivision[i].getElementsByTagName("titleDivision")[0]
+								.childNodes[0].nodeValue +
+							"</option>";
+					}
+					input += "</select><br>";
+
+					input +=
+						'<input type="button" class="button" value="Добавить" onclick="checkServiceman();"><br>';
+					input += '<input type=button value=Назад class="button" onclick="defaultButtonsForPlan();">';
+					input += '</form>';
+					document.getElementById("temporary").innerHTML = input;
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("GET", "rankPositionXML.php", true);
 	request.send(null);
 }
 
@@ -317,7 +419,7 @@ function newPlan() {
 
 					table += '<tr><td colspan="2">';
 					table += '<table id="tableGroupEvent"><tbody><tr><td> Группа мероприятий <br>'
-					table += '<select name="groupEvent" class="selectForPlan">';
+					table += '<select name="groupEvent[1]" class="selectForPlan">';
 					table += "<option disabled>Выберите группу мероприятий</option>";
 					for (i = 0; i < messagesGroupEvent.length; i++) {
 						table +=
@@ -335,7 +437,7 @@ function newPlan() {
 					table += '<table id="tableEvent"><tbody><tr><td>'
 					eventTable = '';
 					eventTable += ' Мероприятие <br> ';
-					eventTable += '<select name="event" class="selectForPlan">';
+					eventTable += '<select name="event[1][1]" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите мероприятие</option>";
 					for (i = 0; i < messagesEvent.length; i++) {
 						eventTable +=
@@ -351,7 +453,7 @@ function newPlan() {
 
 					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
 					eventTable += 'Исполнитель <br> ';
-					eventTable += '<select name="executor" class="selectForPlan">';
+					eventTable += '<select name="executor[1][1]" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите исполнителя</option>";
 					for (i = 0; i < messagesServiceman.length; i++) {
 						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
@@ -371,7 +473,7 @@ function newPlan() {
 
 					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
 					eventTable += ' Соисполнитель <br> ';
-					eventTable += '<select name="coExecutor" class="selectForPlan">';
+					eventTable += '<select name="coExecutor[1][1]" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите соисполнителя</option>";
 					for (i = 0; i < messagesServiceman.length; i++) {
 						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
@@ -391,22 +493,24 @@ function newPlan() {
 					eventTable += '</select><br>';
 
 					eventTable += ' Срок выполнения <br> ';
-					eventTable += '<input type="date" name="deadLineEvent" class="selectForPlan">';
+					eventTable += '<input type="date" name="deadLineEvent[1][1]" class="selectForPlan">';
 					eventTable += '<br>';
 
 					table += eventTable;
-					table += '</td><td type="hidden"><div id=countEvent>1</div></td></tr></tbody></table>';
+					table += '</td><input type=hidden value=1 id=countEvent name=countEvent></td></tr></tbody></table>';
 					forButton = 'tableEvent';
 					table += '<input type="button" value="Добавить" class="buttonTable" onclick="addEventTable(\'' + forButton + '\'); newEventTable();">';
-					table += '</td><div id=countGroupEvent>1</div></tr></tbody></table>';
-					table += '<br><input type="button" onclick="addGroupEvent(); newGroupEventTable();" id="longButton" value="Добавить группу мероприятий"';
+					table += '</td></tr></tbody></table>';
+					table += '<br><input type="button" onclick="addGroupEvent(); newGroupEventTable();" id="longButton" value="Добавить группу мероприятий">';
+					table += '<input type=hidden value=1 id=countGroupEvent name=countGroupEvent>';
 					table += "</td></tr>";
 
 					table += '</tbody>';
 					table += "</table>";
 					table += '<div id="rowId"></div>';
+					table += '<div id="rowId"></div>';
 					document.getElementById("table").innerHTML = table;
-					button = '<input type=button value="Создать" class="button" onclick="sendDataPlan();">';
+					button = '<input type=button value="Создать" class="button" onclick="sendDataPlan();createDowloadButton();">';
 					document.getElementById("switchTable").innerHTML = button;
 
 				} else if (request.status == 404) {
@@ -469,9 +573,13 @@ function newEventTable() {
 				if (request.status == 200) {
 					var xmlDoc = request.responseXML;
 					var messagesEvent = xmlDoc.getElementsByTagName("event");
+					var countEvent = parseInt(document.getElementById("countEvent").value, 10);
+					var countGroupEvent = parseInt(document.getElementById("countGroupEvent").value, 10);
+					countEvent += 1;
+					document.getElementById("countEvent").value = countEvent;
 					eventTable = '';
 					eventTable += ' Мероприятие <br> ';
-					eventTable += '<select name="event" class="selectForPlan">';
+					eventTable += '<select name="event[' + countGroupEvent + '][' + countEvent + ']" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите мероприятие</option>";
 					for (i = 0; i < messagesEvent.length; i++) {
 						eventTable +=
@@ -487,7 +595,7 @@ function newEventTable() {
 
 					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
 					eventTable += 'Исполнитель <br> ';
-					eventTable += '<select name="executor" class="selectForPlan">';
+					eventTable += '<select name="executor[' + countGroupEvent + '][' + countEvent + ']" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите исполнителя</option>";
 					for (i = 0; i < messagesServiceman.length; i++) {
 						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
@@ -507,7 +615,7 @@ function newEventTable() {
 
 					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
 					eventTable += ' Соисполнитель <br> ';
-					eventTable += '<select name="coExecutor" class="selectForPlan">';
+					eventTable += '<select name="coExecutor[' + countGroupEvent + '][' + countEvent + ']" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите соисполнителя</option>";
 					for (i = 0; i < messagesServiceman.length; i++) {
 						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
@@ -527,7 +635,7 @@ function newEventTable() {
 					eventTable += '</select><br>';
 
 					eventTable += ' Срок выполнения <br> ';
-					eventTable += '<input type="date" name="deadLineEvent" class="selectForPlan">';
+					eventTable += '<input type="date" name="deadLineEvent[' + countGroupEvent + '][' + countEvent + ']" class="selectForPlan">';
 					eventTable += '<br>';
 
 					rand = Math.random();
@@ -568,9 +676,13 @@ function newGroupEventTable() {
 				if (request.status == 200) {
 					var xmlDoc = request.responseXML;
 					var messagesGroupEvent = xmlDoc.getElementsByTagName("groupEvent");
+					var countGroupEvent = parseInt(document.getElementById("countGroupEvent").value, 10);
+					document.getElementById("countEvent").value = 1;
+					countGroupEvent += 1;
+					document.getElementById("countGroupEvent").value = countGroupEvent;
 					eventGroupTable = '';
 					eventGroupTable += ' Группа мероприятий <br> ';
-					eventGroupTable += '<select name="event" class="selectForPlan">';
+					eventGroupTable += '<select name="groupEvent[' + countGroupEvent + ']" class="selectForPlan">';
 					eventGroupTable += "<option disabled>Выберите группу мероприятий</option>";
 					for (i = 0; i < messagesGroupEvent.length; i++) {
 						eventGroupTable +=
@@ -591,7 +703,7 @@ function newGroupEventTable() {
 					eventTable = '';
 					eventTable += '<table id="tableEvent' + rand + '"><tbody><tr><td>'
 					eventTable += ' Мероприятие <br> ';
-					eventTable += '<select name="event" class="selectForPlan">';
+					eventTable += '<select name="event[' + countGroupEvent + '][1]" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите мероприятие</option>";
 					for (i = 0; i < messagesEvent.length; i++) {
 						eventTable +=
@@ -607,7 +719,7 @@ function newGroupEventTable() {
 
 					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
 					eventTable += ' Исполнитель <br> ';
-					eventTable += '<select name="executor" class="selectForPlan">';
+					eventTable += '<select name="executor[' + countGroupEvent + '][1]" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите исполнителя</option>";
 					for (i = 0; i < messagesServiceman.length; i++) {
 						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
@@ -628,7 +740,7 @@ function newGroupEventTable() {
 
 					var messagesServiceman = xmlDoc.getElementsByTagName("serviceman");
 					eventTable += ' Соисполнитель <br> ';
-					eventTable += '<select name="coExecutor" class="selectForPlan">';
+					eventTable += '<select name="coExecutor[' + countGroupEvent + '][1]" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите соисполнителя</option>";
 					for (i = 0; i < messagesServiceman.length; i++) {
 						FN = messagesServiceman[i].getElementsByTagName("firstNameServiceman")[0].childNodes[0]
@@ -648,7 +760,7 @@ function newGroupEventTable() {
 					eventTable += '</select><br>';
 
 					eventTable += ' Срок выполнения <br> ';
-					eventTable += '<input type="date" name="deadLineEvent" class="selectForPlan">';
+					eventTable += '<input type="date" name="deadLineEvent[' + countGroupEvent + '][1]" class="selectForPlan">';
 					eventTable += '<br>';
 
 					eventTable += '</td></tr></tbody></table>';
@@ -685,7 +797,181 @@ function newEvent() {
 		'<input type="button" class="button" value="Добавить" onclick="checkEvent();"><br>';
 	input += '<input type=button value=Назад class="button" onclick="defaultButtons();">';
 	input += '</form>';
-			document.getElementById("temporary").innerHTML = input;
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function newEventForTable() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить мероприятие</b><br>';
+	input +=
+		'<input type="text" id="inputTitleEvent" name="titleEvent" class="input" placeholder="Наименование"><br>';
+	input +=
+		'<input type="text" id="inputCommentEvent" name="commentEvent" class="input" placeholder="Комментарий"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkEvent();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtonsForTable();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function newDivision() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить подразделение</b><br>';
+	input +=
+		'<input type="text" id="inputTitleDivision" name="titleDivision" class="input" placeholder="Наим. подразделения"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkDivision();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtons();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function newDivisionForPlan() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить подразделение</b><br>';
+	input +=
+		'<input type="text" id="inputTitleDivision" name="titleDivision" class="input" placeholder="Наим. подразделения"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkDivision();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtonsForPlan();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function watchPlan($file) {
+
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+
+	document.getElementById('rowId').name = 'file';
+	document.getElementById('rowId').innerHTML = $file;
+	var myForm = document.getElementById("formTable");
+	var elems = myForm.elements;
+	var params = "";
+
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					$useless = 1;
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("POST", ".php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+
+}
+
+function newEventForPlan() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить мероприятие</b><br>';
+	input +=
+		'<input type="text" id="inputTitleEvent" name="titleEvent" class="input" placeholder="Наименование"><br>';
+	input +=
+		'<input type="text" id="inputCommentEvent" name="commentEvent" class="input" placeholder="Комментарий"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkEvent();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtonsForPlan();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function newGroupEvent() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить группу мероприятий</b><br>';
+	input +=
+		'<input type="text" id="inputTitleGroupEvent" name="titleGroupEvent" class="input" placeholder="Наименование"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkGroupEvent();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtons();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function newGroupEventForPlan() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить группу мероприятий</b><br>';
+	input +=
+		'<input type="text" id="inputTitleGroupEvent" name="titleGroupEvent" class="input" placeholder="Наименование"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkGroupEvent();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtonsForPlan();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function newTimeInterval() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить временной интервал</b><br>';
+	input +=
+		'<input type="text" id="inputTimeInterval" name="titleTimeInterval" class="input" placeholder="Наименование"><br>';
+	input += '<b class="lable">Начало</b><br>';
+	input +=
+		'<input type="date" id="InputBeginTimeInterval" name="beginTimeInterval" class="input"><br>';
+	input += '<b class="lable">Конец</b><br>';
+	input +=
+		'<input type="date" id="InputEndTimeInterval" name="endTimeInterval" class="input"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkTimeInterval();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtons();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+
+}
+
+function newTimeIntervalForPlan() {
+
+	var input = "<form id=eventForm>";
+	input += '<b class="lable">Добавить временной интервал</b><br>';
+	input +=
+		'<input type="text" id="inputTimeInterval" name="titleTimeInterval" class="input" placeholder="Наименование"><br>';
+	input += '<b class="lable">Начало</b><br>';
+	input +=
+		'<input type="date" id="InputBeginTimeInterval" name="beginTimeInterval" class="input"><br>';
+	input += '<b class="lable">Конец</b><br>';
+	input +=
+		'<input type="date" id="InputEndTimeInterval" name="endTimeInterval" class="input"><br>';
+	input +=
+		'<input type="button" class="button" value="Добавить" onclick="checkTimeInterval();"><br>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtonsForPlan();">';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
 
 }
 
@@ -704,11 +990,23 @@ function newTypePlan() {
 
 	var input = "";
 	input += '<form name="test" id="dataPattern" method="post" action="patternParser.php" enctype=multipart/form-data>';
-	input += '<input type=text name=titleTypePlan placeholder="Вид плана" class="input" id="inputTypePlanTitle"><br>';
+	input += '<input type=text name=titleTypePlan placeholder="Вид плана" class="input" id="titleTypePlan"><br>';
 	input += '<br><b class=lable>Шаблон документа</b><br>'
 	input += '<input type=file name=uploadfile accept=".docx" class="button" onchange="enabledUploadPattern();"><br>';
 	input += '<div id="uploadButton"><input type=submit disabled name="blockButton" value=Загрузить class="button"></div></form>';
 	input += '<input type=button value=Назад class="button" onclick="defaultButtons();">';
+	document.getElementById("temporary").innerHTML = input;
+}
+
+function newTypePlanForPlan() {
+
+	var input = "";
+	input += '<form name="test" id="dataPattern" method="post" action="patternParser.php" enctype=multipart/form-data>';
+	input += '<input type=text name=titleTypePlan placeholder="Вид плана" class="input" id="titleTypePlan"><br>';
+	input += '<br><b class=lable>Шаблон документа</b><br>'
+	input += '<input type=file name=uploadfile accept=".docx" class="button" onchange="enabledUploadPattern();"><br>';
+	input += '<div id="uploadButton"><input type=submit disabled name="blockButton" value=Загрузить class="button"></div></form>';
+	input += '<input type=button value=Назад class="button" onclick="defaultButtonsForPlan();">';
 	document.getElementById("temporary").innerHTML = input;
 }
 
@@ -732,13 +1030,40 @@ function defaultButtons() {
 	input +=
 		'<input type="button" class="button" onclick="newServiceman();" value="Добавить сотрудника"><br>';
 	input +=
+		'<input type="button" class="button" onclick="newDivision();" value="Добавить подразделение"><br>';
+	input +=
 		'<input type="button" class="button" onclick="newEvent();" value="Добавить мероприятие"><br>';
 	input +=
-		'<input type="button" class="button" onclick="newPlan(); newEvent();" value="Создать планир. документ"><br>';
+		'<input type="button" class="button" onclick="newGroupEvent();" value="Добавить гр. мероприятий"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newPlan(); defaultButtonsForPlan();" value="Создать планир. документ"><br>';
 	input +=
 		'<input type="button" class="button" onclick="uploadPlan();" value="Просмотреть docx"><br>';
 	input +=
 		'<input type="button" class="button" onclick="newTypePlan();" value="Добавить вид плана"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newTimeInterval();" value="Добавить врем. интервал"><br></br>';
+	input += '</form>';
+	document.getElementById("temporary").innerHTML = input;
+}
+
+function defaultButtonsForPlan() {
+	var input = "<form id='formTemp'>";
+
+	input +=
+		'<input type="button" class="button" onclick="newServicemanForPlan();" value="Добавить сотрудника"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newDivisionForPlan();" value="Добавить подразделение"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newEventForPlan();" value="Добавить мероприятие"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newGroupEventForPlan();" value="Добавить гр. мероприятий"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newTypePlanForPlan();" value="Добавить вид плана"><br>';
+	input +=
+		'<input type="button" class="button" onclick="newTimeIntervalForPlan();" value="Добавить врем. интервал"><br></br>';
+	input +=
+		'<input type="button" class="button" onclick="defaultButtons(); startAjax();" value="Назад"><br></br>';
 	input += '</form>';
 	document.getElementById("temporary").innerHTML = input;
 }
@@ -877,7 +1202,7 @@ function checkEvent() {
 					color1 = 0;
 					color2 = 138;
 					time = 3;
-					if (titleEvent == "good" && commentEvent == "good") {
+					if (titleEvent == "good") {
 						sendDataEvent();
 						startAjax();
 						defaultButtons();
@@ -888,7 +1213,7 @@ function checkEvent() {
 					}
 
 					if (commentEvent == "bad") {
-						errorInputCommentEvent();
+						//errorInputCommentEvent();
 					}
 
 				} else if (request.status == 404) {
@@ -903,6 +1228,176 @@ function checkEvent() {
 	request.send(params);
 }
 
+function checkDivision() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("eventForm");
+	var elems = myForm.elements;
+	var params = "";
+
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					var xmlDoc = request.responseXML;
+					mess = xmlDoc.getElementsByTagName("meta");
+					titleDivision = mess[0].getElementsByTagName("titleDivision")[0].childNodes[0]
+						.nodeValue;
+					color1 = 0;
+					color2 = 138;
+					time = 3;
+					if (titleDivision == "good") {
+						sendDataDivision();
+						startAjax();
+						defaultButtons();
+						return;
+					}
+					if (titleDivision == "bad") {
+						errorInputTitleEvent();
+					}
+
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("POST", "checkDivision.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
+
+function checkTimeInterval() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("eventForm");
+	var elems = myForm.elements;
+	var params = "";
+
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					var xmlDoc = request.responseXML;
+					mess = xmlDoc.getElementsByTagName("meta");
+					titleTimeInterval = mess[0].getElementsByTagName("titleTimeInterval")[0].childNodes[0]
+						.nodeValue;
+					color1 = 0;
+					color2 = 138;
+					time = 3;
+					if (titleTimeInterval == "good") {
+						sendDataTimeInterval();
+						startAjax();
+						defaultButtons();
+						return;
+					}
+					if (titleTimeInterval == "bad") {
+						errorInputTitleTimeInterval();
+					}
+
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("POST", "checkTimeInterval.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
+
+function checkGroupEvent() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("eventForm");
+	var elems = myForm.elements;
+	var params = "";
+
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					var xmlDoc = request.responseXML;
+					mess = xmlDoc.getElementsByTagName("meta");
+					titleGroupEvent = mess[0].getElementsByTagName("titleGroupEvent")[0].childNodes[0]
+						.nodeValue;
+					color1 = 0;
+					color2 = 138;
+					time = 3;
+					if (titleGroupEvent == "good") {
+						sendDataGroupEvent();
+						startAjax();
+						defaultButtons();
+						return;
+					}
+					if (titleEvent == "bad") {
+						errorInputTitleGroupEvent();
+					}
+
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("POST", "checkGroupEvent.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
 
 function errorInputServicemanDocument() {
 	inputDocument.style.background =
@@ -917,6 +1412,22 @@ function errorInputServicemanDocument() {
 		setTimeout("errorInputServicemanDocument()", 100);
 	} else {
 		setTimeout("errorInputServicemanDocument()", 45);
+	}
+}
+
+function errorInputTitleTimeInterval() {
+	inputTimeInterval.style.background =
+		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
+	color1 += 1;
+	color2 -= 1;
+	time -= 1;
+	if (color1 > 41) {
+		return;
+	}
+	if (time > 0) {
+		setTimeout("errorInputTitleTimeInterval()", 100);
+	} else {
+		setTimeout("errorInputTitleTimeInterval()", 45);
 	}
 }
 //человеческая функция, которая отчего-то не работает
@@ -953,6 +1464,23 @@ function errorInputTitleEvent() {
 		setTimeout("errorInputTitleEvent()", 45);
 	}
 }
+
+function errorInputTitleGroupEvent() {
+	inputTitleGroupEvent.style.background =
+		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
+	color1 += 1;
+	color2 -= 1;
+	time -= 1;
+	if (color1 > 41) {
+		return;
+	}
+	if (time > 0) {
+		setTimeout("errorInputTitleGroupEvent()", 100);
+	} else {
+		setTimeout("errorInputTitleGroupEvent()", 45);
+	}
+}
+
 function errorInputCommentEvent() {
 	inputCommentEvent.style.background =
 		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
@@ -1020,6 +1548,27 @@ function sendDataServiceman() {
 	request.send(params);
 }
 
+function sendDataTimeInterval() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("eventForm");
+	var elems = myForm.elements;
+	var params = "";
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.open("POST", "newTimeInterval.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
+
 function sendDataEvent() {
 	var request;
 	if (window.XMLHttpRequest) {
@@ -1037,6 +1586,48 @@ function sendDataEvent() {
 		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
 	}
 	request.open("POST", "newEvent.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
+
+function sendDataDivision() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("eventForm");
+	var elems = myForm.elements;
+	var params = "";
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.open("POST", "newDivision.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
+
+function sendDataGroupEvent() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("eventForm");
+	var elems = myForm.elements;
+	var params = "";
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	request.open("POST", "newGroupEvent.php", true);
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	request.send(params);
 }
@@ -1060,6 +1651,25 @@ function sendDataPlan() {
 	request.open("POST", "newPlan.php", true);
 	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 	request.send(params);
+}
+
+function downloadURI(uri, name) {
+	var link = document.createElement("a");
+	link.download = name;
+	link.href = uri;
+	document.body.appendChild(link);
+	link.click();
+	document.body.removeChild(link);
+	delete link;
+}
+
+function createDowloadButton() {
+	document.getElementById('switchTable').innerHTML += '<a href="http://' + document.domain + ':8080/!deepLom/newDocx/plan.docx' + '" download="downloadFile.docx"><button type="button" onclick="deleteDownloadButton();" class="button">Скачать</button></a>'
+
+}
+
+function deleteDownloadButton() {
+	document.getElementById('switchTable').innerHTML = '<input type=button value="Создать" class="button" onclick="sendDataPlan();createDowloadButton();">';
 }
 
 

@@ -10,8 +10,6 @@ $servicemanData = $mysqli->query(
     and serviceman.idPositionServiceman = militaryposition.idPosition 
     and serviceman.idDivisionServiceman = division.idDivision"
 );
-
-
 echo ('<?xml version="1.0" encoding="utf-8"?>');
 echo ("<all>");
 while ($eventDataExtract = $servicemanData->fetch_assoc()) {
@@ -27,6 +25,8 @@ while ($eventDataExtract = $servicemanData->fetch_assoc()) {
         </serviceman>    
     ");
 }
+
+
 
 $planData = $mysqli->query(
     "SELECT plan.numberPlan, plan.idPlan, typeplan.titleTypePlan, division.titleDivision, 
@@ -52,10 +52,7 @@ while ($eventDataExtract = $planData->fetch_assoc()) {
 }
 
 $eventData = $mysqli->query(
-    "SELECT event.idEvent, groupevent.titleGroupEvent, event.titleEvent, 
-    event.deadLineEvent, event.commentEvent 
-    FROM event, groupevent 
-    WHERE event.idGroupEventEvent = groupevent.idGroupEvent"
+    "SELECT * FROM event"
 );
 
 while ($eventDataExtract = $eventData->fetch_assoc()) {

@@ -36,10 +36,13 @@ if ($_SESSION['auth'] == 1) { ?>
             <div id='temporary'>
                 <form id='formTemp'>
                     <input type="button" class="button" onclick="newServiceman();" value="Добавить сотрудника"><br>
+                    <input type="button" class="button" onclick="newDivision();" value="Добавить подразделение"><br>
                     <input type="button" class="button" onclick="newEvent();" value="Добавить мероприятие"><br>
-                    <input type="button" class="button" onclick="newPlan(); newEvent();" value="Создать планир. документ"><br>
+                    <input type="button" class="button" onclick="newGroupEvent();" value="Добавить гр. мероприятий"><br>
+                    <input type="button" class="button" onclick="newPlan(); defaultButtonsForPlan();" value="Создать планир. документ"><br>
                     <input type="button" class="button" onclick="uploadPlan();" value="Просмотреть docx"><br>
                     <input type="button" class="button" onclick="newTypePlan();" value="Добавить вид плана"><br>
+                    <input type="button" class="button" onclick="newTimeInterval();" value="Добавить врем. интервал"><br>
                 </form>
             </div>
         </div>

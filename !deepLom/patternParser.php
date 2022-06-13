@@ -155,8 +155,6 @@ $trueFile = fopen("unzipXML/document.xml", "w");
 fwrite($trueFile, $xml->asXML());
 fclose($trueFile);
 
-
-
 $openZip = $zip->open($source);
 if ($openZip === TRUE) {
     $zip->addFile('unzipXML/document.xml', 'word/document.xml');
@@ -165,9 +163,10 @@ if ($openZip === TRUE) {
     echo 'failed';
 }
 unlink('unzipXML/document.xml'); //удаление временного файла
+copy($source, 'upload_samples/'. $fileName);
 
 //обратно архивируем измененный docx
-
+/*
 $pathDir = 'unzipXML/'; // путь к папке, файлы которой будем архивировать
 $nameArhive = $fileName; //название архива
 $zip = new ZipArchive; // класс для работы с архивами
@@ -229,8 +228,9 @@ if ($zip->open('upload_samples/' . $nameArhive, ZipArchive::CREATE) === TRUE) { 
 } else {
     die('Произошла ошибка при создании архива');
 }
-
+*/
 $titleTypePlan = $_POST['titleTypePlan'];
+//echo $titleTypePlan;
 echo ('<?xml version="1.0" encoding="utf-8"?>');
 if ($titleTypePlan != '' && $fileName != '') {
     $mysqli->query("INSERT INTO typeplan (titleTypePlan, nameFilePattern) VALUES ('$titleTypePlan', '$fileName')");
