@@ -220,7 +220,7 @@ td {
     /*padding: 10px 15px;*/
 }
 
-tr:hover td {
+.tr1:hover td {
     background: #881c1c2c;
 }
 

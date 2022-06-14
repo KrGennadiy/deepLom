@@ -20,7 +20,7 @@ function startAjax() {
 				if (request.status == 200) {
 					var xmlDoc = request.responseXML;
 					var table =
-						"<table class='table' id='bookTable'><tr><th>Наименование плана</th><th>Подразделение</th><th>Временной промежуток</th><th></th></tr>";
+						"<table class='table' id='bookTable'><tr class=tr1><th>Наименование плана</th><th>Подразделение</th><th>Временной промежуток</th><th></th></tr>";
 					var messages = xmlDoc.getElementsByTagName("planMainTableData");
 					numberPlans = messages.length;
 					for (i = 0; i < messages.length; i++) {
@@ -44,7 +44,7 @@ function startAjax() {
 							"titleDivision"
 						)[0].childNodes[0].nodeValue;
 
-						table += "<tr><td>" + outTitlePlan + "</td>";
+						table += "<tr class=tr1><td>" + outTitlePlan + "</td>";
 						table += "<td>" + outTitleDivision + "</td>";
 						table += "<td>" + outTitleTimeInterval + "</td>";
 						table +=
@@ -292,9 +292,9 @@ function newPlan() {
 					var messagesPattern = xmlDoc.getElementsByTagName("typePlan");
 					var messages = xmlDoc.getElementsByTagName("serviceman");
 					var table =
-						"<table class='table' id='bookTable'><tr><th>Придумаю потом</th><th>Выбрать/Вставить</th><th></th></tr>";
+						"<table class='table' id='bookTable'><tr class=tr1><th>Элемент документа</th><th>Выбрать/Вставить</th><th></th></tr>";
 					table += '<tbody>'
-					table += '<tr><td> Шаблон документа </td>';
+					table += '<tr class=tr1><td> Шаблон документа </td>';
 					table += '<td>';
 					table += '<select name="pattern" class="selectForPlan">';
 					table += "<option disabled>Выберите шаблон</option>";
@@ -313,7 +313,7 @@ function newPlan() {
 					table += "</select></td></tr>";
 
 
-					table += '<tr><td> Утверждающее лицо </td>';
+					table += '<tr class=tr1><td> Утверждающее лицо </td>';
 					table += '<td>';
 					table += '<select name="approver" class="selectForPlan">';
 					table += "<option disabled>Выберите утв. лицо</option>";
@@ -337,7 +337,7 @@ function newPlan() {
 					}
 					table += "</select></td></tr>";
 
-					table += '<tr><td> Составитель плана </td>';
+					table += '<tr class=tr1><td> Составитель плана </td>';
 					table += '<td>';
 					table += '<select name="agreeder" class="selectForPlan">';
 					table += "<option disabled>Выберите утв. лицо</option>";
@@ -385,7 +385,7 @@ function newPlan() {
 					messagesTimeInterval = xmlDoc.getElementsByTagName("timeInterval");
 					messagesEvent = xmlDoc.getElementsByTagName("event");
 					messagesGroupEvent = xmlDoc.getElementsByTagName("groupEvent");
-					table += '<tr><td> Наименование подразделения </td>';
+					table += '<tr class=tr1><td> Наименование подразделения </td>';
 					table += '<td>';
 					table += '<select name="division" class="selectForPlan">';
 					table += "<option disabled>Выберите подразделение</option>";
@@ -401,7 +401,7 @@ function newPlan() {
 					}
 					table += "</select></td></tr>";
 
-					table += '<tr><td> Временной интервал </td>';
+					table += '<tr class=tr1><td> Временной интервал </td>';
 					table += '<td>';
 					table += '<select name="timeInterval" class="selectForPlan">';
 					table += "<option disabled>Выберите временной интервал</option>";
@@ -417,8 +417,8 @@ function newPlan() {
 					}
 					table += "</select></td></tr>";
 
-					table += '<tr><td colspan="2">';
-					table += '<table id="tableGroupEvent"><tbody><tr><td> Группа мероприятий <br>'
+					table += '<tr class=tr2><td colspan="2">';
+					table += '<table id="tableGroupEvent"><tbody><tr><td class=td1> Группа мероприятий <br>'
 					table += '<select name="groupEvent[1]" class="selectForPlan">';
 					table += "<option disabled>Выберите группу мероприятий</option>";
 					for (i = 0; i < messagesGroupEvent.length; i++) {
@@ -434,7 +434,7 @@ function newPlan() {
 					table += '</select>'
 					table += '</td>'
 					table += '<td>'
-					table += '<table id="tableEvent"><tbody><tr><td>'
+					table += '<table id="tableEvent"><tbody><tr class=tr1><td>'
 					eventTable = '';
 					eventTable += ' Мероприятие <br> ';
 					eventTable += '<select name="event[1][1]" class="selectForPlan">';
@@ -527,7 +527,9 @@ function newPlan() {
 function addGroupEvent() {
 	var tbody = document.getElementById("tableGroupEvent").getElementsByTagName("tbody")[0];
 	var row = document.createElement("tr")
+	row.setAttribute('class','tr2')
 	var td1 = document.createElement("td")
+	td1.setAttribute('class', 'td1');
 	temp1 = document.createElement('div');
 	temp1.setAttribute('id', 'groupEventPlace1');
 	temp2 = document.createElement('div');
@@ -543,6 +545,7 @@ function addGroupEvent() {
 function addEventTable(id) {
 	var tbody = document.getElementById(id).getElementsByTagName("tbody")[0];
 	var row = document.createElement("tr")
+	row.setAttribute('class', 'tr1');
 	var td1 = document.createElement("td")
 	temp = document.createElement('div');
 	temp.setAttribute('id', 'newEventPlace');
@@ -701,7 +704,7 @@ function newGroupEventTable() {
 
 					var messagesEvent = xmlDoc.getElementsByTagName("event");
 					eventTable = '';
-					eventTable += '<table id="tableEvent' + rand + '"><tbody><tr><td>'
+					eventTable += '<table id="tableEvent' + rand + '"><tbody><tr class=tr1><td>'
 					eventTable += ' Мероприятие <br> ';
 					eventTable += '<select name="event[' + countGroupEvent + '][1]" class="selectForPlan">';
 					eventTable += "<option disabled>Выберите мероприятие</option>";
