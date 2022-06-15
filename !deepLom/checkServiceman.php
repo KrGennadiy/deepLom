@@ -8,7 +8,7 @@ $sql = $mysqli->query("SELECT serviceman.document from serviceman where servicem
 $row = $sql->fetch_assoc();
 echo ('<?xml version="1.0" encoding="utf-8"?>');
 echo ('<all><meta>');
-if (!$row['document']) {
+if (!isset($row['document'])) {
     echo ("<free>good</free>");
 } else {
     echo ("<free>bad</free>");

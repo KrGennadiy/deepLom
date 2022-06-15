@@ -31,7 +31,7 @@ function startAjax() {
 
 						outIdPlan = messages[i].getElementsByTagName("idPlan")[0]
 							.childNodes[0].nodeValue;
-							nameFilePattern = messages[i].getElementsByTagName("nameFilePattern")[0]
+						nameFilePattern = messages[i].getElementsByTagName("nameFilePattern")[0]
 							.childNodes[0].nodeValue;
 						outIdTypePlan = messages[i].getElementsByTagName("idTypePlan")[0]
 							.childNodes[0].nodeValue;
@@ -49,8 +49,8 @@ function startAjax() {
 						table += "<td>" + outTitleTimeInterval + "</td>";
 						table +=
 							'<input type="hidden" name="idPlan" value="' + outIdPlan + '">';
-							
-						table += '<td class="actionButtons"><a href="http://' + document.domain + ':8080/!deepLom/newDocx/'+ nameFilePattern + '" download="downloadFile.docx"><button type="button" class="buttonTable">Скачать</button></a>';
+
+						table += '<td class="actionButtons"><a href="http://' + document.domain + '/!deepLom/newDocx/' + outIdPlan + nameFilePattern + '" download="downloadFile.docx"><button type="button" class="buttonTable">Скачать</button></a>';
 						//table += '<input type="button" value="удалить" class="buttonTable" onclick="deleteServiceman(\'' + outDocument + '\'); startAjax();">'
 						//table += '<input type="button" value="изменить" class="buttonTable" onclick="changeServiceman(\'' + outDocument + '\', \'' + outName + '\', \'' + outRank + '\', \'' + outPosition + '\');">'
 						table += "</td></tr>";
@@ -201,9 +201,9 @@ function newServiceman() {
 					input +=
 						'<div id="divInputDocument"> <input type="text" id="inputDocument" name="document" class="input" placeholder="Серия и номер д-та"></div><br>';
 					input +=
-						'<div id="divInputFirstName"><input type="text" id="inputFirstName" name="firstName" class="input" placeholder="Фамилия"></div><br>';
+						'<div id="divInputFirstName"><input type="text" id="inputSecondName" name="secondName" class="input" placeholder="Фамилия"></div><br>';
 					input +=
-						'<div id="divInputSecondName"><input type="text" id="inputSecondName" name="secondName" class="input" placeholder="Имя"></div><br>';
+						'<div id="divInputSecondName"><input type="text" id="inputFirstName" name="firstName" class="input" placeholder="Имя"></div><br>';
 					input +=
 						'<div id="divInputMiddleName"><input type="text" id="inputMiddleName" name="middleName" class="input" placeholder="Отчество"></div><br>';
 
@@ -296,7 +296,7 @@ function newPlan() {
 					table += '<tbody>'
 					table += '<tr class=tr1><td> Шаблон документа </td>';
 					table += '<td>';
-					table += '<select name="pattern" class="selectForPlan">';
+					table += '<select name="pattern" id=patternId class="selectForPlan">';
 					table += "<option disabled>Выберите шаблон</option>";
 					for (i = 0; i < messagesPattern.length; i++) {
 						table +=
@@ -510,7 +510,8 @@ function newPlan() {
 					table += '<div id="rowId"></div>';
 					table += '<div id="rowId"></div>';
 					document.getElementById("table").innerHTML = table;
-					button = '<input type=button value="Создать" class="button" onclick="sendDataPlan();createDowloadButton();">';
+					button = '<input type=button value="Создать" class="button" onclick="sendDataPlan(); createDownloadButton();">';
+					button += '<input type=button value="Выбрать вышестоящий план" class="button" onclick="createSelectUpperPlan();">';
 					document.getElementById("switchTable").innerHTML = button;
 
 				} else if (request.status == 404) {
@@ -527,7 +528,7 @@ function newPlan() {
 function addGroupEvent() {
 	var tbody = document.getElementById("tableGroupEvent").getElementsByTagName("tbody")[0];
 	var row = document.createElement("tr")
-	row.setAttribute('class','tr2')
+	row.setAttribute('class', 'tr2')
 	var td1 = document.createElement("td")
 	td1.setAttribute('class', 'td1');
 	temp1 = document.createElement('div');
@@ -1273,7 +1274,7 @@ function checkDivision() {
 						return;
 					}
 					if (titleDivision == "bad") {
-						errorInputTitleEvent();
+						errorInputTitleDivision();
 					}
 
 				} else if (request.status == 404) {
@@ -1468,6 +1469,22 @@ function errorInputTitleEvent() {
 	}
 }
 
+function errorInputTitleDivision() {
+	inputTitleDivision.style.background =
+		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
+	color1 += 1;
+	color2 -= 1;
+	time -= 1;
+	if (color1 > 41) {
+		return;
+	}
+	if (time > 0) {
+		setTimeout("errorInputTitleDivision()", 100);
+	} else {
+		setTimeout("errorInputTitleDivision()", 45);
+	}
+}
+
 function errorInputTitleGroupEvent() {
 	inputTitleGroupEvent.style.background =
 		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
@@ -1512,6 +1529,22 @@ function errorInputServicemanSecondName() {
 		setTimeout("errorInputServicemanSecondName()", 100);
 	} else {
 		setTimeout("errorInputServicemanSecondName()", 45);
+	}
+}
+
+function errorInputServicemanFirstName() {
+	inputFirstName.style.background =
+		"rgba(" + color2 + ", " + color1 + ", 37, 0.349)";
+	color1 += 1;
+	color2 -= 1;
+	time -= 1;
+	if (color1 > 41) {
+		return;
+	}
+	if (time > 0) {
+		setTimeout("errorInputServicemanFirstName()", 100);
+	} else {
+		setTimeout("errorInputServicemanFirstName()", 45);
 	}
 }
 
@@ -1666,15 +1699,162 @@ function downloadURI(uri, name) {
 	delete link;
 }
 
-function createDowloadButton() {
-	document.getElementById('switchTable').innerHTML += '<a href="http://' + document.domain + ':8080/!deepLom/newDocx/plan.docx' + '" download="downloadFile.docx"><button type="button" onclick="deleteDownloadButton();" class="button">Скачать</button></a>'
+function createDownloadButton() {
+	document.getElementById('switchTable').innerHTML += '<a href="http://' + document.domain + '/!deepLom/newDocx/plan.docx" download="downloadFile.docx"><button type="button" onclick="deleteDownloadButton();" class="button">Скачать</button></a>'
 
 }
 
 function deleteDownloadButton() {
-	document.getElementById('switchTable').innerHTML = '<input type=button value="Создать" class="button" onclick="sendDataPlan();createDowloadButton();">';
+	document.getElementById('switchTable').innerHTML = '<input type=button value="Создать" class="button" onclick="sendDataPlan();createDownloadButton();">';
 }
 
+//не используется
+function checkPatternId() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	params = '&patternId=' + document.getElementById('patternId').value;
+
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					var xmlDoc = request.responseXML;
+					mess = xmlDoc.getElementsByTagName("meta");
+					nameFilePattern = mess[0].getElementsByTagName("nameFilePattern")[0].childNodes[0]
+						.nodeValue;
+					return nameFilePattern;
+
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("POST", "checkPatternId.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
+
+function createSelectUpperPlan() {
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	
+	
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					var xmlDoc = request.responseXML;
+					var messages = xmlDoc.getElementsByTagName("forPlan");
+
+					select = '<form id=switchForm>';
+					select += '<select class=selectForPlan name=planForParser id=inputPlanForParser> '
+					select += "<option disabled>Выберите вышестоящий план</option>";
+					for (i = 0; i < messages.length; i++) {
+						select +=
+							"<option value=" +
+							messages[i].getElementsByTagName("idPlan")[0].childNodes[0]
+								.nodeValue +
+							">" +
+							messages[i].getElementsByTagName("titleTypePlan")[0].childNodes[0]
+								.nodeValue + ' ' +
+							messages[i].getElementsByTagName("idPlan")[0].childNodes[0]
+								.nodeValue + ' ' +
+							messages[i].getElementsByTagName("nameFilePattern")[0].childNodes[0]
+								.nodeValue;
+						"</option>";
+					}
+					select += "</select>";
+					select += '<input type=button value=выбрать class=button onclick="startParserPlan();">'
+					select += '</form>';
+					document.getElementById('switchTable').innerHTML = select;
+
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("POST", "listPlan.php", true);
+	request.send(null);
+}
+//закончить
+function startParserPlan(){
+	var request;
+	if (window.XMLHttpRequest) {
+		request = new XMLHttpRequest();
+	} else if (window.ActiveXObject) {
+		request = new ActiveXObject("Microsoft.XMLHTTP");
+	} else {
+		return;
+	}
+	var myForm = document.getElementById("switchForm");
+	var elems = myForm.elements;
+	var params = "";
+	for (var i = 0; i < elems.length; i++) {
+		if (params != "") params += "&";
+		params += elems[i].name + "=" + encodeURIComponent(elems[i].value);
+	}
+	
+	
+	request.overrideMimeType("text/xml");
+	request.onreadystatechange = function () {
+		switch (request.readyState) {
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4: {
+				if (request.status == 200) {
+					params = document.getElementById('inputPlanForParser');
+					var xmlDoc = request.responseXML;
+					var messages = xmlDoc.getElementsByTagName("forPlan");
+					
 
 
+					//поменять кнопку
+					//select += '<input type=button class=button onclick="startParserPlan();">'
+					//document.getElementById('switchTable').innerHTML = select;
+
+				} else if (request.status == 404) {
+					alert("Ошибка: запрашиваемый скрипт не найден!");
+				} else alert("Ошибка: сервер вернул статус: " + request.status);
+				break;
+			}
+		}
+	};
+	request.open("POST", "parserPlan.php", true);
+	request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	request.send(params);
+}
 

@@ -271,9 +271,9 @@ $trueFile = fopen("unzipXML/document.xml", "w");
 fwrite($trueFile, $newXml->asXML());
 fclose($trueFile);
 
-copy($source, 'newDocx/' . $patternFile);
+copy($source, 'newDocx/' . $idPlan . $patternFile);
 copy($source, 'newDocx/plan.docx');
-$openZip = $zip->open('newDocx/' . $patternFile);
+$openZip = $zip->open('newDocx/' . $idPlan .$patternFile);
 if ($openZip === TRUE) {
     $zip->addFile('unzipXML/document.xml', 'word/document.xml');
     $zip->close();
